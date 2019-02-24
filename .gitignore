@@ -1,0 +1,5 @@
+
+*.class
+
+# exclude everything under target folder
+src/nus-iss-mr-phq9/target/*
