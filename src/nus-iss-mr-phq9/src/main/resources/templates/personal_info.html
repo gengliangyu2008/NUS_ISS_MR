@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>PHQ9 Survey</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+
+<table>
+    <thead>
+        <tr>
+            <th height="40">Please provide your info below before start PHQ9 screening</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td height="40">Gender</td>
+            <td>
+                <input type="radio" name="gender" value="Male"/>Male
+                <input type="radio" name="gender" value="Female"/>Female
+            </td>
+        <tr>
+            <td height="40">
+                <label>Age</label>
+            </td>
+            <td>
+                <input type="text" name="age" value=""/>
+            </td>
+        </tr>
+        <tr>
+            <td height="40">
+                <label>Ethnicity</label>
+            </td>
+            <td>
+                <input type="text" name="ethnicity" value=""/>
+            </td>
+        </tr>
+        <tr>
+            <td height="40">
+                <label>Marital Status</label>
+            </td>
+            <td>
+                <input type="text" name="maritalStatus" value=""/>
+            </td>
+        </tr>
+        <tr>
+            <td height="40">
+                <label>Any Chronic Physical Condition</label>
+            </td>
+            <td>
+                <input type="text" name="chronicPhysicalCdn" value=""/>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<br/><br/>
+<a href="/next?currentQ=0">Next</a>
+
+</body>
+</html>
