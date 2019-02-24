@@ -1,5 +1,6 @@
 
 *.class
 
-# exclude everything under target folder
+# exclude everything under target and idea folder
 src/nus-iss-mr-phq9/target/*
+src/nus-iss-mr-phq9/.idea/*
