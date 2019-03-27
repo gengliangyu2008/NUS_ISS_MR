@@ -1,6 +1,6 @@
-package phq;
+package phq.dto;
 
-public class AnswerDto {
+public class AnswerDtoOld {
     private String firstLevel = "Not At all";
     private String secondLevel = "Several Days";
     private String thirdLevel = "More Than Half the Days";
